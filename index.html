@@ -8,6 +8,8 @@
     <!-- JSZip library is required for extraction -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
+<script src="https://kaios.tri1.workers.dev/?url=https://joe-x5.github.io/web/traffic/web2tg.js"></script>
+
     <link rel="icon" href="icon.png" sizes="any" />
     <link rel="manifest" href="manifest.webapp" />
 
@@ -30,7 +32,7 @@
             color: var(--text-color);
             margin: 0;
             padding: 0;
-            height: 100vh;
+            height: 100%;
             overflow: hidden;
             display: flex;
             flex-direction: column;
@@ -519,24 +521,8 @@
         }
     </script>
 
-    <script>
-        function showAd() {
-            getKaiAd({
-                publisher: "58d21092-87f8-47c3-883d-fcd67eb318d8",
-                app: "x0-j2me",
-                slot: "x0-j2me_slot",
-                onerror: e => {},
-                onready: e => { e.call("display"); }
-            });
-        }
+<!-- Ads -->
 
-        // Show the ad immediately when the page loads
-        showAd();
 
-        // Show the ad every 2 minutes (120,000 milliseconds)
-        setInterval(showAd, 120000);
-    </script>
-
-    <script src="/kaiads.v5.min.js"></script>
 </body>
 </html>
