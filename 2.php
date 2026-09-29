@@ -1,6 +1,3 @@
-<?php
-// index.php - Minimal PHP, JSON fetched via XHR
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
